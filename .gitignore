@@ -1,1 +1,11 @@
-.ROADMAP.MD
+ROADMAP.md
+
+# Node
+node_modules
+npm-debug.log
+
+# Build
+apps/web/dist
+
+# Env
+apps/web/.env
