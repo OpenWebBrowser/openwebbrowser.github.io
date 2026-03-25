@@ -36,7 +36,6 @@ jobs:
         working-directory: apps/web
         env:
           VITE_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          BASE_PATH: /${{ github.event.repository.name }}/
         run: npm run build
 
       - name: Configure Pages
